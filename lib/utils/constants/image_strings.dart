@@ -1,7 +1,11 @@
 class KImages {
   //App Logos
-  static const String darkAppLogo = "assets/logos/apple-removebg-preview.png";
-  static const String lightAppLogo = "assets/logos/apple-removebg-preview.png";
+  static const String darkAppLogo = "assets/logos/app_logo.png";
+  static const String lightAppLogo = "assets/logos/app_logo.png";
+
+  //Login logo
+  static const String loginLogoWhite = "assets/logos/login_logo_white.png";
+  static const String loginLogoBlack = "assets/logos/login_logo_black.png";
 
   // Social Media
   static const String google =

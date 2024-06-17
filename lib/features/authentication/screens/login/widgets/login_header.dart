@@ -16,9 +16,11 @@ class LoginHeader extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Image(
-          image: AssetImage(dark ? KImages.lightAppLogo : KImages.darkAppLogo),
+          image: AssetImage(
+              dark ? KImages.loginLogoBlack : KImages.loginLogoWhite),
           height: 100,
         ),
+        const SizedBox(height: KSizes.spaceBtwItems),
         Text(
           KTexts.loginTitle,
           style: Theme.of(context).textTheme.headlineMedium,
